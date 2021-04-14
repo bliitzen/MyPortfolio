@@ -4,7 +4,7 @@ import { Container, Row } from 'react-bootstrap';
 import Card from './Card';
 
 import rainbits from '../assets/images/rainbits.jpg';
-import mypic from '../assets/images/mypic.PNG';
+import pythonPic from '../assets/images/o1ubmk6kh0l01.jpg';
 import DungEsc from '../assets/images/DungEsc.PNG';
 
 
@@ -24,10 +24,9 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 1,
-                    title: "About Me",
-                    subTitle: "Learn more about me!",
-                    imgSrc: mypic,
-                    link: '/about',
+                    title: "Python Algo Trading Bot (Coming soon)",
+                    subTitle: "Final project for my python course, I chose to create an algo trading bot",
+                    imgSrc: pythonPic,
                     selected: false
                 },
                 {
@@ -66,7 +65,7 @@ class Carousel extends React.Component {
 
     render() {
         return(
-            <div className="penis">
+            <div className="orng">
                 <Container fluid={true}>
                     <Row className="justify-content-around">
                         {this.makeItems(this.state.items)}

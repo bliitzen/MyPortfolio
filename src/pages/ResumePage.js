@@ -7,7 +7,7 @@ import Hero from '../components/Hero';
 function ResumePage(props) {
 
     return(
-        <div className="penis">
+        <div className="orng">
             <Hero title={props.title} />
             <Content>
                 <h1>Searching for Summer 2021 CO-OP</h1>

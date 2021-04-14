@@ -48,7 +48,7 @@ class ContactPage extends React.Component {
 
     render () {
         return(
-            <div className="penis">
+            <div className="orng">
                 <Hero title={this.props.title} />
                 <Content>
                     <Form onSubmit={this.onSubmit}>

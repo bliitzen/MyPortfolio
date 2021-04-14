@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 
 function CourseWork(props) {
     return(
-        <div className="penis">
+        <div className="orng">
             <Hero title={props.title} subTitle={props.subTitle} />
             <Content>
                 <h1 className="go-bold">Relevant Coursework:</h1>
