@@ -77,6 +77,16 @@ code {
   background-color: black;
 }
 
+.face {
+  border-radius: 50%;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
 @keyframes color-change {
   0% {
     background-color: teal;
