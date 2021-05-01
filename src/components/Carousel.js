@@ -4,7 +4,7 @@ import { Container, Row } from 'react-bootstrap';
 import Card from './Card';
 
 import rainbits from '../assets/images/rainbits.jpg';
-import pythonPic from '../assets/images/o1ubmk6kh0l01.jpg';
+import todoList from '../assets/images/todolist.PNG';
 import DungEsc from '../assets/images/DungEsc.PNG';
 
 
@@ -24,9 +24,9 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 1,
-                    title: "Python Algo Trading Bot (Coming soon)",
-                    subTitle: "Final project for my python course, I chose to create an algo trading bot",
-                    imgSrc: pythonPic,
+                    title: "Todo List",
+                    subTitle: "Basic todo list created in Angular",
+                    imgSrc: todoList,
                     selected: false
                 },
                 {
