@@ -27,6 +27,7 @@ class Carousel extends React.Component {
                     title: "Todo List",
                     subTitle: "Basic todo list created in Angular",
                     imgSrc: todoList,
+                    link: 'https://serene-engelbart-faab2b.netlify.app/',
                     selected: false
                 },
                 {
